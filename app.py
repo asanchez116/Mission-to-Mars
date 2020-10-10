@@ -10,10 +10,12 @@ mongo = PyMongo(app)
 
 # set up app routs
 
-@app.route("/")  
+
+@app.route("/")
 def index():
     mars = mongo.db.mars.find_one()
-    return render_template("index.html", mars-mars)
+    return render_template("index.html", mars=mars)
+
 
 @app.route("/scrape")
 def scrape():
@@ -23,5 +25,6 @@ def scrape():
     mars.update({}, mars_data, upsert=True)
     return "Scraping Successful!"
 
-if __name__ = "__main__":
+
+if __name__ == "__main__":
     app.run()
