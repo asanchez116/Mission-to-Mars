@@ -19,7 +19,6 @@ def index():
 
 @app.route("/scrape")
 def scrape():
-    # make a conndction to mongod b
     mars = mongo.db.mars
     mars_data = scraping.scrape_all()
     mars.update({}, mars_data, upsert=True)

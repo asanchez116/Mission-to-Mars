@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-# import splinter and Beautiful Soup
+# Import Splinter, BeautifulSoup, and Pandas
 from splinter import Browser
 from bs4 import BeautifulSoup as soup
 import pandas as pd
@@ -44,12 +42,10 @@ def mars_news(browser):
     # Add try/except for error handling
     try:
         slide_elem = news_soup.select_one("ul.item_list li.slide")
-        # Use the parent element to find the first 'a' tag and
-        # save it as 'news_title'
+        # Use the parent element to find the first 'a' tag and save it as 'news_title'
         news_title = slide_elem.find("div", class_="content_title").get_text()
         # Use the parent element to find the paragraph text
-        news_p = slide_elem.find(
-                "div", class_="article_teaser_body").get_text()
+        news_p = slide_elem.find("div", class_="article_teaser_body").get_text()
 
     except AttributeError:
         return None, None
@@ -103,7 +99,7 @@ def mars_facts():
     df.set_index('Description', inplace=True)
 
     # Convert dataframe into HTML format, add bootstrap
-    return df.to_html(classes="table table-striped")
+    return df.to_html()
 
 
 if __name__ == "__main__":
