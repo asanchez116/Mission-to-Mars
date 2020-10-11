@@ -1,2 +1,4 @@
 Practice.pynb
 .ipynb_checkpoints
+.DS_Store
+__pycache__/scraping.cpython-37.pyc
