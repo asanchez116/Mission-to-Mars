@@ -1,6 +1,6 @@
 # Mission-to-Mars
 
-## Challenge files incldude 
+## Challenge files include 
 1. [Mission_to_Mars_Challenge.ipynb](https://github.com/asanchez116/Mission-to-Mars/blob/master/Challenge/Mission_to_Mars_Challenge.ipynb) in the challenge folder 
 2. [scraping.py](https://github.com/asanchez116/Mission-to-Mars/blob/master/scraping.py) in the main folder 
 3. [app.py](https://github.com/asanchez116/Mission-to-Mars/blob/master/app.py) in the main folder 
