@@ -9,7 +9,16 @@
 Steps 
 1. run app.py in terminal
 2. go to url http://127.0.0.1:5000
+3. click scrape new data button
 
-Index.html screenshot 
+## Index.html screenshot 
 
-Web Scrape Results
+![image](https://raw.githubusercontent.com/asanchez116/Mission-to-Mars/master/Resources/Screen%20Shot%202020-10-19%20at%206.20.21%20AM%20(2).png)
+
+## Successful Scrape 
+ 
+![image](https://raw.githubusercontent.com/asanchez116/Mission-to-Mars/master/Resources/Screen%20Shot%202020-10-19%20at%206.22.34%20AM%20(2).png)
+
+## Web Scrape Results
+ 
+![image](https://raw.githubusercontent.com/asanchez116/Mission-to-Mars/master/Resources/Screen%20Shot%202020-10-19%20at%206.23.30%20AM%20(2).png)
